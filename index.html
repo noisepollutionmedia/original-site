@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noise Pollution Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Style to initially hide content */
+        .hidden-content {
+            display: none;
+        }
+    </style>
+
+    <script>
+        // Wait for CSS files to load
+        window.onload = function() {
+            // Show the content by removing the 'hidden-content' class
+            document.body.classList.remove('hidden-content');
+        };
+    </script>
+</head>
+<body class="hidden-content">
+    <!-- Everything inside this body tag will be hidden initially -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Noise Pollution Media</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background" style="background-image: url('hero.png');"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Partner in YouTube Content Management</h2>
+                <p>Maximize your channel's potential with Noise Pollution Media.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Noise Pollution Media is a multi-channel network dedicated to empowering creators and maximizing their reach on YouTube. We provide a suite of tools and services to help you grow your audience and monetize your content.</p>
+        </div>
+    </section>
+
+    <section id="services" class="content-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <i class="fas fa-chart-line"></i>
+                <h3>Content Strategy</h3>
+                <p>Developing custom content strategies tailored to your channel.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Monetization</h3>
+                <p>Helping you monetize your content through ads, sponsorships, and more.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Analytics</h3>
+                <p>Providing detailed analytics to track and optimize your performance.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-users"></i>
+                <h3>Community Management</h3>
+                <p>Engaging with your audience and managing your community effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="content-section">
+        <div class="container">
+            <h2>Our Partners</h2>
+            <p>We work with a wide range of partners to bring you the best opportunities and resources.</p>
+            <div class="partners-logos">
+                <img src="partner1.jpeg" alt="Partner 1">
+                <img src="partner2.jpeg" alt="Partner 2">
+                <img src="partner3.jpeg" alt="Partner 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mwkggzpr" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Noise Pollution Media. All rights reserved.</p>
+            <ul class="socials">
+                <li><a href="https://x.com/NoisePMedia"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://x.com/NoisePMedia"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://x.com/NoisePMedia"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://x.com/NoisePMedia"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
